@@ -15,7 +15,7 @@ while IFS='' read -u $fd line || [[ -n "$line" ]]; do
         #convert images to video fps=2
         VNAME=$(printf ../anima_%02d.avi $NVID)
         echo "Generating: " $VNAME
-        ffmpeg -y -r 2 -pattern_type glob -i '*.jpg' $VNAME 2>ffmpeg.log
+        ffmpeg -y -framerate 1 -pattern_type glob -i '*.jpg' -r 25  $VNAME 2>ffmpeg.log
         let NVID=NVID+1
         #delete images
         echo "Deleting images"
