@@ -1,3 +1,3 @@
 cd /home/pi/anima
 pkill omxplayer
-omxplayer --win 0,480,486,1265 --crop 500,0,986,650 --loop -b --alpha 198 $(printf anima_%02d.avi $1)
+omxplayer --win 866,0,1366,780 --crop 0,0,500,768 --aspect-mode fill -loop -b --alpha 198 $(printf anima_%02d.avi $1)
