@@ -1,4 +1,3 @@
-d1_pcpcn_acum/2018_02_09_00/
-d1_temp_prnm/2018_02_09_00/
-d1_viento_prnm_s/2018_02_09_00/
-d1_meteo/2018_02_09_00/
+d1_pcpcn_acum
+d1_temp_prnm
+d1_viento_prnm_s
